@@ -1,0 +1,8 @@
+<h1>Movie Detail</h1>
+
+<h2>{{ movie.title }}</h2>
+
+<strong>Roles</strong>
+{% for role in roles %}
+<p>{{ role.character_name}}</p>
+{% endfor %}
